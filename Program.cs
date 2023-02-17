@@ -24,9 +24,7 @@ for (int i = 0; i < numbers.Length; i++)
 
 Console.WriteLine($"Минимальное число: {min}");
 Console.WriteLine($"Максимальное число: {max}");
-Console.WriteLine($"Разница между максимальным и минимальным числами: {max-min}");
-
-
+Console.WriteLine($"Разница между максимальным и минимальным числами: {max - min}");
 
 void FillArrayRandomNumbers(int[] array)
 {
@@ -35,7 +33,6 @@ void FillArrayRandomNumbers(int[] array)
         array[i] = new Random().Next(1, 555);
     }
 }
-
 
 void PrintArray(int[] array)
 {
